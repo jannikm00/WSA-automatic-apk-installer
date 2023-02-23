@@ -9,7 +9,7 @@ color c0
 pause
 exit
 )
-set /p case= "Is WSA with magisk already installed? Y=Yes N=No:"
+set /p case= "Do want to install WSA with Magisk and Play Store? Y=Yes N=No:"
 if %case% EQU N (
 echo press CTRL+M and select this link then CTRL+C and download the zip file https://mega.nz/file/htBgESIJ#F4FZaXT1xmfm-lP0bOv5mHx99VI9fTdXcw8_KPsZNJg
 echo Unpack this .zip file to C:\ and name it 64
