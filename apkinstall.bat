@@ -1,7 +1,7 @@
 echo off
 NET SESSION >nul 2>&1
 IF %ERRORLEVEL% EQU 0 (
-    ECHO Administrator PRIVILEGES Detected!
+    ECHO Administrator privileges Detected.
 color 0a
 ) ELSE (
     ECHO Please start this Script with Administrator Privileges!
