@@ -23,7 +23,7 @@ set /p IP= "Please input the IP+Port of the ADB in Windows Subsystem for Android
 adb connect %IP%
 echo Allow WSA ADB Debugging
 pause
-echo Put the .apk in the 64\ folder
+echo Put the .apk in the C:\64\ folder
 set /p APK= "Please write the exact name of the file, for example:store.apk:"
 echo %APK% is installing please wait...
 adb install %APK%
